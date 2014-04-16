@@ -35,4 +35,7 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'debugger'
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'debugger'
+end
