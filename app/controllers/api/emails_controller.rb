@@ -1,4 +1,4 @@
-class Api::EmailController < ApplicationController
+class Api::EmailsController < ApplicationController
   def track
     arr = params['_json']
     if params[:_json].class.to_s == "Array"
